@@ -23,8 +23,8 @@ $("#addNew").click(function(){
 	$userText = "";
 	$("#form").show();
 	//Why isn't this clearing the text area???
-	$("inputText").val("");
-	$("#outputText").val("");
+	$("#inputText").val("");
+	$("#outputText").empty();
 	$("#addNew").css("display","none");
 });
 
